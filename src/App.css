@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.down{
+  border-top:solid rgb(173, 0, 0) 5px;
+  border-radius: 50%;
+  box-shadow: inset 10px 5px 15px rgba(0, 0, 198, 0.772);
+}
+
+.bg-dimmed {
+  @apply brightness-[100%]; /* Tailwind brightness utility */
+}
+
+
+.outlined-number {
+  font-size: 100px;
+  color: black; /* Black text color */
+  text-shadow: 
+    2px 2px 0px white,  /* Right Bottom */
+    -2px 2px 0px white, /* Left Bottom */
+    2px -2px 0px white, /* Right Top */
+    -2px -2px 0px white; /* Left Top */
+}
+
+.up{
+  background-color: #35002a;
+}
+
+.ans{
+  transition: all;
+  transition-property: all;
+  transition-duration: 500ms;
+  transition-timing-function: linear;
+}
